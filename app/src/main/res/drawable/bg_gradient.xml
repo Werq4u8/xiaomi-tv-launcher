@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Тёмно-красный градиент как на референсе -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="radial"
+        android:gradientRadius="200%"
+        android:startColor="#B01020"
+        android:centerColor="#1A0308"
+        android:endColor="#0A0208"
+        android:centerX="0.75"
+        android:centerY="0.35" />
+</shape>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Базовая тема без статус-бара и навигации -->
+    <style name="LauncherTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_gradient</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- Убираем системный фон чтобы не было мерцания -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <!-- Важно для TV: убираем эффект выделения по умолчанию -->
+        <item name="android:colorButtonNormal">#00000000</item>
+        <item name="android:buttonStyle">@style/NoRippleButton</item>
+    </style>
+
+    <style name="NoRippleButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@null</item>
+    </style>
+</resources>

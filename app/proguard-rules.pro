@@ -1,0 +1,3 @@
+-keep class com.tvlauncher.app.** { *; }
+-keepattributes *Annotation*
+-dontwarn kotlin.**

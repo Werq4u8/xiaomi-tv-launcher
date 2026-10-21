@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Фон иконки приложения с эффектом фокуса -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="#33FFFFFF" />
+            <corners android:radius="12dp" />
+            <stroke android:width="2dp" android:color="#CCFFFFFF" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#1AFFFFFF" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+</selector>
